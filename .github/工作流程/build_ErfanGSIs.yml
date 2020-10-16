@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/V11.0.3.0.QEECNXM/miui_MIMIX3_V11.0.3.0.QEECNXM_4d73488207_10.0.zip
-  ROM_NAME: MIUI
+  ROM_URL: http://58.58.80.174/Firmware/Flyme/meizu17_Pro/8.1.2.2/cn/20200621113522/d3dc0c5f/update.zip?ali_redirect_domain=download.meizu.com&ali_redirect_ex_ftag=98c08a24d63ce8d45ab65ece7942da5fa7a078ec6b2d15c9&ali_redirect_ex_tmining_ts=1592881248&ali_redirect_ex_tmining_expire=3600&ali_redirect_ex_hot=0
+  ROM_NAME: FLYME
   TZ: Asia/Shanghai
 
 jobs:
