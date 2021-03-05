@@ -15,7 +15,7 @@ on:
     
 env:
   ROM_URL: https://ip215862586.mobgslb.tbcache.com/Firmware/Flyme/meizu17/9.21.3.3/cn_daily/20210303140118/2f77e4b9/update.zip?ali_redirect_domain=download.meizu.com&ali_redirect_ex_ftag=42402093b0cfd8dca4510d8d9e0f882b2535c1a608f15b79&ali_redirect_ex_tmining_ts=1614947020&ali_redirect_ex_tmining_expire=3600&ali_redirect_ex_hot=100
-  ROM_NAME: Flyme
+  ROM_NAME: Generic
   TZ: Asia/Shanghai
 
 jobs:
