@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://58.58.80.174/Firmware/Flyme/meizu17_Pro/8.1.2.2/cn/20200621113522/d3dc0c5f/update.zip?ali_redirect_domain=download.meizu.com&ali_redirect_ex_ftag=98c08a24d63ce8d45ab65ece7942da5fa7a078ec6b2d15c9&ali_redirect_ex_tmining_ts=1592881248&ali_redirect_ex_tmining_expire=3600&ali_redirect_ex_hot=0
+  ROM_URL: https://ip215862586.mobgslb.tbcache.com/Firmware/Flyme/meizu17/9.21.3.3/cn_daily/20210303140118/2f77e4b9/update.zip?ali_redirect_domain=download.meizu.com&ali_redirect_ex_ftag=42402093b0cfd8dca4510d8d9e0f882b2535c1a608f15b79&ali_redirect_ex_tmining_ts=1614947020&ali_redirect_ex_tmining_expire=3600&ali_redirect_ex_hot=100
   ROM_NAME: Flyme
   TZ: Asia/Shanghai
 
@@ -61,7 +61,7 @@ jobs:
        - name: Upload GSI to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer bit final/GSI.zip
+              ./transfer gof final/GSI.zip
 
          
             
